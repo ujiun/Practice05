@@ -5,6 +5,13 @@ public class Base {
     public void service(String state) {
         
         //코드작성할것
+    	if(state.equals("낮")) {
+    		day();
+    	}else if(state.equals("밤")) {
+    		night();
+    	}else if(state.equals("오후")) {
+    		afternoon();
+    	}
     }
 
     public void day() {
@@ -13,7 +20,7 @@ public class Base {
 
     public void night() {
         
-    	//코드작성할것
+    	System.out.println("밤에는 숙면");
     }
     
     public void afternoon(){
