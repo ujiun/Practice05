@@ -7,7 +7,17 @@ public class Member {
 	private int point;
 	
 	//생성자
-	
+	public Member() {		
+	}
+			
+	public Member(String id, String name, int point) {
+		this.id = id;
+		this.name = name;
+		this.point = point;
+	}
+
+
+
 	//메소드 - gs
 		
 	public void setId(String id) {
