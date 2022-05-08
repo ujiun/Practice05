@@ -17,10 +17,16 @@ public class Account {
 
 
     //필요한 메소드 작성
+	
+	
 	public void deposit(int money) {
 		this.balance += money;
 	}
     
+	public String getAccountNo() {
+		return accountNo;
+	}
+
 	public void withdraw(int money) {
 		this.balance -= money;
 	}

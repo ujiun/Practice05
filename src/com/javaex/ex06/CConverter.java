@@ -5,7 +5,7 @@ public class CConverter {
     public static double rate;
     
     public static void setRate(double rate){
-        CConverter.rate = rate;
+    	CConverter.rate = rate;
     }
     
     public static double toDoller(double won){

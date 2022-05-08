@@ -8,9 +8,10 @@ public class AccountApp {
         
         Scanner sc = new Scanner(System.in);
         boolean run = true;
-        int money;
+        int money;        
         
         Account account = new Account("312-89562-123456");
+        System.out.println(account.getAccountNo() + " 계좌가 개설되었습니다.");
         
         while(run){
             System.out.println("");
@@ -49,7 +50,7 @@ public class AccountApp {
                     System.out.println("다시입력해주세요");
                     break;
                     
-            }//switch 
+            }//switch  
             
         }//while
         sc.close();
